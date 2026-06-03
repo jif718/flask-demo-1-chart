@@ -60,7 +60,6 @@ ingress:
     alb.ingress.kubernetes.io/group.name: jif-lab
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80},{"HTTPS":443}]'
     alb.ingress.kubernetes.io/ssl-redirect: '443'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-east-1:445529239852:certificate/d244b47e-a90f-4c4b-b064-affef80f43b5
     alb.ingress.kubernetes.io/healthcheck-path: /health
   # kubernetes.io/ingress.class: nginx
   # kubernetes.io/tls-acme: "true"
